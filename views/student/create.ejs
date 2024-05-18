@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create Student</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+
+    <div class="register">
+        <h1>Create new student</h1>
+        <form action="/students/save" method="POST">
+            <input type="text" name="name" placeholder="Name" required /><br>
+            <input type="email" name="email" placeholder="Email" required /><br>
+            <input type="password" name="password" placeholder="Password" required /><br>
+            <input type="text" name="address" placeholder="Address" required /><br>
+            <select name="yearLevel" required>
+                <option disabled selected>Year Level</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select><br>
+            <select name="course" required>
+                <option disabled selected>Course</option>
+                <option>Information Technology</option>
+                <option>Computer Science</option>
+                <option>Information Systems</option>
+                <option>Entertaining and Multimedia Computing</option>
+                <option>Computer Engineering</option>
+            </select><br>
+            <td colspan="2"><input type="submit" value="Submit" /></td>
+        </form>
+        <h3><a href='/students'>Student List</a></h3>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Detail</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="show">
+        <h3><a href="/students">Student Login</a></h3>
+        <h1>Student Detail</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>ID: </td>
+                    <td><b>
+                            <%= id %>
+                        </b></td>
+                </tr>
+                <tr>
+                    <td>Name: </td>
+                    <td><b>
+                            <%= studentDetails['name'] %>
+                        </b></td>
+                </tr>
+                <tr>
+                    <td>Address: </td>
+                    <td><b>
+                            <%= studentDetails['address'] %>
+                        </b></td>
+                </tr>
+                <tr>
+                    <td>Course: </td>
+                    <td><b>
+                            <%= studentDetails['course'] %>
+                        </b></td>
+                </tr>
+                <tr>
+                    <td>Year Level: </td>
+                    <td><b>
+                            <%= studentDetails['yearLevel'] %>
+                        </b></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <a href="/students/edit/<%= id %>">Edit Details</a>
+        <form action="/students/delete/<%= id %>" method="POST">
+            <button type="submit" onclick="return confirm('Delete Student?')">Delete</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

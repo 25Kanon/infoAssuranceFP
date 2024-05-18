@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edit Student</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="edit">
+        <h3>Edit Student: <%= studentDetails['name'] %>
+        </h3>
+        <form action="/students/update/<%= id %>" method="POST">
+            <input type="text" name="name" value="<%= studentDetails['name'] %>" required><br>
+            <input type="text" name="address" value="<%= studentDetails['address'] %>" required><br>
+            <select name="yearLevel" required>
+                <option disabled selected>Year Level</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+            <select name="course" required>
+                <option disabled selected>Course</option>
+                <option>Information Technology</option>
+                <option>Computer Science</option>
+                <option>Information Systems</option>
+                <option>Entertaining and Multimedia Computing</option>
+                <option>Computer Engineering</option>
+            </select>
+
+            <input type="submit" value="Submit" />
+        </form>
+        <a href="/students/show/<%= id %>">Back</a>
+    </div>
+
+</body>
+
+</html>

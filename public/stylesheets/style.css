@@ -1,0 +1,231 @@
+body {
+  padding: 20px;
+  font-family: system-ui;
+  background-image: linear-gradient(to right, #616161, #2c2c2c, #181818);
+}
+
+.login {
+  color: #E6BE8A;
+  padding: 35px;
+  padding-top: 10px;
+  margin: auto;
+  width: 30%;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.login input {
+  width: 95%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: system-ui;
+  font-size: 14px;
+}
+
+.login input[type="submit"] {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #E6BE8A;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.login input[type="submit"]:hover {
+  width: 100%;
+  margin-bottom: 10px;
+  background: none;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.login input[type="submit"]:not( :hover) {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #E6BE8A;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.login a {
+  color: white;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.register {
+  color: #E6BE8A;
+  padding: 35px;
+  padding-top: 10px;
+  margin: auto;
+  width: 40%;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.register input {
+  width: 95%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: system-ui;
+  font-size: 14px;
+}
+
+.register select {
+  width: 98.5%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: system-ui;
+  font-size: 14px;
+}
+
+.register input[type="submit"] {
+  width: 98.5%;
+  margin-bottom: 10px;
+  background-color: #E6BE8A;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.register input[type="submit"]:hover {
+  margin-bottom: 10px;
+  background: none;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.register input[type="submit"]:not( :hover) {
+  margin-bottom: 10px;
+  background-color: #E6BE8A;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.register a {
+  color: white;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.show {
+  color: #E6BE8A;
+  padding: 35px;
+  padding-top: 10px;
+  margin: auto;
+  width: 30%;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.show a {
+  color: white;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.show button {
+  margin-top: 15px;
+  font-family: system-ui;
+  color: white;
+  font-style: italic;
+  font-size: 14px;
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.show button:hover {
+  cursor: pointer;
+}
+
+.edit {
+  color: #E6BE8A;
+  padding: 35px;
+  margin: auto;
+  width: 40%;
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.edit input {
+  width: 95%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: system-ui;
+  font-size: 14px;
+}
+
+.edit select {
+  width: 98.5%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: system-ui;
+  font-size: 14px;
+}
+
+.edit input[type="submit"] {
+  width: 98.5%;
+  margin-bottom: 10px;
+  background-color: #E6BE8A;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.edit input[type="submit"]:hover {
+  margin-bottom: 10px;
+  background: none;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.edit input[type="submit"]:not( :hover) {
+  margin-bottom: 10px;
+  background-color: #E6BE8A;
+  border: 1px solid #E6BE8A;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: 0.5s;
+}
+
+.edit a {
+  color: white;
+  font-style: italic;
+  font-size: 14px;
+}
